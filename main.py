@@ -127,7 +127,7 @@ def main():
                             if playingWelcome or not pygame.mixer.music.get_busy():
                                 print('ALARM')
                                 playingWelcome=False
-                                pygame.mixer.music.load("alarming.mp3")
+                                pygame.mixer.music.load("/res/alarming.mp3")
                                 pygame.mixer.music.play()
                     '''checkEyeBlink(working and hasPerson)'''
 
@@ -138,12 +138,12 @@ def main():
             if (rnp == 1):
                 print('WELCOME')
                 playingWelcome=True
-                pygame.mixer.music.load("welcome.mp3")
+                pygame.mixer.music.load("/res/welcome.mp3")
                 pygame.mixer.music.play()
 
             elif (rnp == 2):
                 print('BYE')
-                pygame.mixer.music.load("bye.mp3")
+                pygame.mixer.music.load("/res/bye.mp3")
                 pygame.mixer.music.play()
 
 if __name__=='__main__':
