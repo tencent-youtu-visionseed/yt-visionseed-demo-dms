@@ -22,3 +22,5 @@ python3 main.py
 ```python
 vs = YtVisionSeed(serial.Serial("/dev/ttyACM0",115200,timeout=0.5))
 ```
+
+想要了解更多，请查看[腾讯优图VisionSeed文档](https://visionseed.youtu.qq.com/docs/example-dms.md)
